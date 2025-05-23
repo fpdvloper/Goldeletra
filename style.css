@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
     background-color: #fff;
     margin: 0;
@@ -42,14 +42,13 @@ body {
     text-align: center;
     width: 90%; /* Ajuste para ser responsivo */
     max-width: 300px; /* Limitar a largura máxima */
-    margin: 20px; /* Espaçamento ao redor */
+    margin: 20px auto; /* Centralizar */
 }
 
 .rodape {
     background-color: #f5f5f5;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
 }
 
 .rodape p {
